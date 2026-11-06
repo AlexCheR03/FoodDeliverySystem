@@ -5,4 +5,9 @@ public class Restaurant {
     private ArrayList<MenuItem> menu;
     private ArrayList<Order> orders;
 
+    public Restaurant(String name) {
+        this.name = name;
+        menu = new ArrayList<MenuItem>();
+        orders = new ArrayList<Order>();
+    }
 }
