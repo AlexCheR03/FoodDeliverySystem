@@ -10,6 +10,15 @@ public class Courier {
         this.isFree = isFree;
         this.salary = salary;
     }
+    public boolean getFree() {
+        return this.isFree;
+    }
+    public void setFree(boolean arg) {
+        this.isFree = arg;
+    }
+    public void switchFree() {
+        this.isFree = !isFree;
+    }
 
 
 }
