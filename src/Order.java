@@ -12,4 +12,10 @@ public class Order {
         this.status = status;
         this.courier = courier;
     }
+    public int getOrderId() {
+        return this.id;
+    }
+    public User getUser() {
+        return this.user;
+    }
 }
